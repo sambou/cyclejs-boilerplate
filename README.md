@@ -1,5 +1,7 @@
 ## CycleJS App Boilerplate
-Bleeding edge boilerplate for CycleJS apps with TypeScript v2, webpack, mocha + chai, xstream
+Bleeding edge boilerplate for CycleJS apps with TypeScript v2, webpack, mocha + chai and xstream.
+
+[![Dependency Status](https://david-dm.org/sambou/cyclejs-boilerplate.svg)](https://david-dm.org/sambou/cyclejs-boilerplate)
 
 ## Setup
 - ```npm install```
