@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "filesGlob": [
+    "./webpack/webpack.development.config.js",
+    "./src/**/*.ts",
+    "!./node_modules/**/*.ts",
+    "./typings/index.d.ts"
+  ],
+  "compilerOptions": {
+    "jsx": "react",
+    "noEmitOnError": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "es6",
+    "strictNullChecks": true
+  },
+  "files": [
+    "./webpack/webpack.development.config.js",
+    "./src/client/index.ts",
+    "./typings/index.d.ts"
+  ],
+  "exclude": [],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
